@@ -1,1 +1,1 @@
-console.log("Hello from other JS Script")
+console.log("Hello from other JS Script");
