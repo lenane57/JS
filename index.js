@@ -139,6 +139,8 @@ myVariable = 20;
 
 console.log(myVariable);
 
+*******************************************************************
+
 let myTest = null;
 console.log(myTest);
 
