@@ -94,25 +94,56 @@
   * later assign value to it - object with three name-value pairs
   */
 
- let x = 10;
- const y = true;
- const myObject = {
-     a: x,
-     b: y,
- };
+// let x = 10;
+// const y = true;
+// const myObject = {
+//     a: x,
+//     b: y,
+// };
    
- console.log(myObject);
-x = 20
- let antherObject
- antherObject = {
-    newA: x,
-    b: y,
-    c: myObject
- };
+// console.log(myObject);
+//x = 20
+// let antherObject
+// antherObject = {
+//    newA: x,
+//    b: y,
+//    c: myObject
+// };
  
  //newA = 20
 // b = true
  //c = {}
 
 
- console.log(antherObject);
+// console.log(antherObject);
+
+let myVariable;
+
+console.log(myVariable); // undefined
+
+myVariable = 10;
+console.log(myVariable);
+
+myVariable = true;
+console.log(myVariable); //true
+
+myVariable = {
+x: true,
+y: 10
+
+}
+
+console.log(myVariable);
+
+myVariable = 20;
+
+console.log(myVariable);
+
+let myTest = null;
+console.log(myTest);
+
+myTest = 15;
+console.log(myTest);
+
+myTest = false;
+console.log(myTest);
